@@ -1,0 +1,25 @@
+__DIR__: D:\OpenServer\domains\noerrors.fun\actions
+Абсолютний шлях: D:/OpenServer/domains/noerrors.fun/uploads/images/screenshot__1746881648101.jpg
+Чи існує директорія? Так
+Права доступу до директорії: 777
+Результат запису: 75880
+__DIR__: D:\OpenServer\domains\noerrors.fun\actions
+Абсолютний шлях: D:/OpenServer/domains/noerrors.fun/uploads/images/screenshot__1746886351537.jpg
+Чи існує директорія? Так
+Права доступу до директорії: 777
+Результат запису: 84934
+__DIR__: D:\OpenServer\domains\noerrors.fun\actions
+Абсолютний шлях: D:/OpenServer/domains/noerrors.fun/uploads/images/screenshot__1746886708119.jpg
+Чи існує директорія? Так
+Права доступу до директорії: 777
+Результат запису: 84278
+__DIR__: D:\OpenServer\domains\noerrors.fun\actions
+Абсолютний шлях: d:/openserver/domains/noerrors.fun/uploads/images/screenshot__1747326097790.jpg
+Чи існує директорія? Так
+Права доступу до директорії: 777
+Результат запису: 45597
+__DIR__: D:\OpenServer\domains\noerrors.fun\actions
+Абсолютний шлях: d:/openserver/domains/noerrors.fun/uploads/images/screenshot__1747326254211.jpg
+Чи існує директорія? Так
+Права доступу до директорії: 777
+Результат запису: 48888

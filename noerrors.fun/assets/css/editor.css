@@ -1,0 +1,107 @@
+.editor-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+.main-editor {
+    width: 700px;
+    text-align: center;
+}
+.image-wrapper {
+    border: 2px solid #ccc;
+    display: inline-block;
+}
+.editor-buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.editor-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.editor-buttons button:hover {
+    background-color: #45a049;
+}
+/* Кнопка "Зберегти" */
+.editor-buttons button.save-button {
+    background-color: #007bff; /* синій */
+    color: white;
+}
+/* "Зберегти" при наведенні */
+.editor-buttons button.save-button:hover:not(:disabled) {
+    background-color: #0056b3; /* темніший синій */
+}
+
+/* Кнопка "Відмінити" */
+.editor-buttons button.reset-button {
+    background-color: #6c757d; /* темно-сірий */
+    color: white;
+}
+/* "Відмінити" при наведенні */
+.editor-buttons button.reset-button:hover {
+    background-color: #5a6268; /* темніший сірий */
+}
+
+/* Disabled кнопка */
+.editor-buttons button:disabled {
+    background-color: #b0c4de; /* світло-синій */
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+.overlay-list {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.overlay-list img {
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid #aaa;
+    transition: 0.2s;
+}
+.overlay-list img:hover {
+    border-color: #333;
+}
+
+/* Мобільна адаптація */
+@media (max-width: 768px) {
+    .editor-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .main-editor {
+        width: 100%;
+    }
+    .editor-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .editor-buttons button {
+        width: 100%;
+    }
+    .overlay-list {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .overlay-list img {
+        width: 30%;
+        min-width: 80px;
+    }
+    canvas {
+        width: 320px;
+    }
+}
